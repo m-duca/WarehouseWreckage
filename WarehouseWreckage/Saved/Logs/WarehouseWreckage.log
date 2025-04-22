@@ -3326,3 +3326,25 @@ Script Stack (0 frames) :
 [2025.04.22-20.57.03:155][223]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
 [2025.04.22-20.57.03:155][223]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
 [2025.04.22-20.57.03:155][223]LogShaderCompilers: Display: ================================================
+[2025.04.22-20.58.12:660][852]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.22-20.58.12:727][852]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.04.22-20.58.12:737][852]LogSavePackage: Moving output files for package: /Game/StarterContent/Maps/Minimal_Default
+[2025.04.22-20.58.12:738][852]LogSavePackage: Moving '../../../../../Unreal Projects/WarehouseWreckage/WarehouseWreckage/Saved/Minimal_Default9778A06D42B9AC5B7311E885BF43294A.tmp' to '../../../../../Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/StarterContent/Maps/Minimal_Default.umap'
+[2025.04.22-20.58.12:743][852]LogFileHelpers: All files are already saved.
+[2025.04.22-20.58.12:743][852]LogFileHelpers: Saving map 'Minimal_Default' took 0.041
+[2025.04.22-20.58.12:753][852]LogFileHelpers: InternalPromptForCheckoutAndSave took 92.046 ms (total: 3.78 sec)
+[2025.04.22-20.58.12:789][852]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.22-20.58.12:789][852]LogContentValidation: Enabled validators:
+[2025.04.22-20.58.12:789][852]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.22-20.58.12:789][852]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.22-20.58.12:789][852]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.22-20.58.12:789][852]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.22-20.58.12:789][852]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.22-20.58.12:789][852]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.22-20.58.12:789][852]AssetCheck: /Game/StarterContent/Maps/Minimal_Default Validating asset
+[2025.04.22-21.02.07:741][244]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2848.636475
+[2025.04.22-21.02.08:741][247]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.22-21.02.08:741][247]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2849.304199, Update Interval: 349.546204
+[2025.04.22-21.08.34:262][534]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3235.153564
+[2025.04.22-21.08.35:262][537]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.22-21.08.35:262][537]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3235.820068, Update Interval: 339.074066
