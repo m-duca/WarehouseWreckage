@@ -2016,3 +2016,897 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.09.22-01.03.27:143][317]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
 [2025.09.22-01.03.27:147][317]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
 [2025.09.22-01.03.27:214][318]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2025.09.22-01.04.35:845][762]LogStreaming: Display: FlushAsyncLoading(482): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.22-01.04.39:822][762]LogSlate: Window 'New Level' being destroyed
+[2025.09.22-01.04.39:829][762]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.09.22-01.04.39:852][762]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2025.09.22-01.04.39:852][762]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.22-01.04.39:863][762]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.22-01.04.39:865][762]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.09.22-01.04.39:877][762]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_2'.
+[2025.09.22-01.04.39:877][762]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled_2
+[2025.09.22-01.04.39:887][762]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.09.22-01.04.39:901][762]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.09.22-01.04.39:901][762]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.09.22-01.04.39:901][762]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,088ms to complete.
+[2025.09.22-01.04.39:924][763]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.22-01.05.27:565][481]Cmd: DELETE
+[2025.09.22-01.05.27:565][481]Cmd: ACTOR DELETE
+[2025.09.22-01.05.27:567][481]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.09.22-01.05.27:581][481]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.09.22-01.05.27:585][481]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2025.09.22-01.05.46:885][748]LogSlate: Window 'Save Level As' being destroyed
+[2025.09.22-01.05.46:932][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Game" FILE="D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.09.22-01.05.46:960][748]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2025.09.22-01.05.46:974][748]LogSavePackage: Moving output files for package: /Game/Maps/Map_Game
+[2025.09.22-01.05.46:974][748]LogSavePackage: Moving 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Saved/Map_Game220279874F4E769A64D69E9434D53747.tmp' to 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap'
+[2025.09.22-01.05.46:990][748]LogFileHelpers: Saving map 'Map_Game' took 0.095
+[2025.09.22-01.05.46:990][748]Cmd: MAP LOAD FILE="D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.09.22-01.05.47:025][748]LogWorld: UWorld::CleanupWorld for Map_Game, bSessionEnded=true, bCleanupResources=true
+[2025.09.22-01.05.47:025][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.22-01.05.47:038][748]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.22-01.05.47:039][748]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.09.22-01.05.47:040][748]LogStreaming: Display: FlushAsyncLoading(485): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.22-01.05.47:042][748]LogAudio: Display: Audio Device (ID: 1) registered with world 'Map_Game'.
+[2025.09.22-01.05.47:042][748]LogChaosDD: Creating Chaos Debug Draw Scene for world Map_Game
+[2025.09.22-01.05.47:053][748]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.09.22-01.05.47:066][748]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.09.22-01.05.47:072][748]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.09.22-01.05.47:072][748]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,052ms to complete.
+[2025.09.22-01.05.47:110][748]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.22-01.05.47:110][748]LogContentValidation: Enabled validators:
+[2025.09.22-01.05.47:110][748]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.22-01.05.47:110][748]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.22-01.05.47:110][748]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.22-01.05.47:110][748]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.22-01.05.47:110][748]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.22-01.05.47:110][748]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.22-01.05.47:110][748]AssetCheck: /Game/Maps/Map_Game Validating asset
+[2025.09.22-01.05.47:132][748]LogSourceControl: Display: Uncontrolled Changelist persistency file saved D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Saved/SourceControl/UncontrolledChangelists.json
+[2025.09.22-01.05.47:181][750]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: ================================================
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: Total job queries 697, among them cache hits 68 (9.76%), DDC hits 388 (55.67%), Duplicates 87 (12.48%)
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: Tracking 542 distinct input hashes that result in 330 distinct outputs (60.89%)
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: RAM used: 4,05 MiB of 1,60 GiB budget. Usage: 0.25%
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: Shaders Compiled: 154
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: Jobs assigned 154, completed 154 (100%)
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: Average time worker was idle: 21.03 s
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: Time job spent in pending queue: average 8.35 s, longest 15.59 s
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: Job execution time: average 1.07 s, max 3.33 s
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: Job life time (pending + execution): average 9.42 s, max 16.04
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: Shader code size: total 1,152 MiB, numShaders 175, average 6,747 KiB, min 1,727 KiB, max 13,762 KiB
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 27.37 s
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: Jobs were issued in 154 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: Average processing rate: 5.63 jobs/sec
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: Total thread time: 141,645 s
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: Total thread preprocess time: 8,894 s
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: Percentage time preprocessing: 6.28%
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: Effective parallelization: 5.17 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.646844
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled   14 times, average 2.71 sec, max 2.86 sec, min 2.53 sec)
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled   14 times, average 1.17 sec, max 1.55 sec, min 0.89 sec)
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 1.07 sec, max 1.07 sec, min 1.07 sec)
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   18 times, average 0.80 sec, max 1.18 sec, min 0.38 sec)
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    7 times, average 0.65 sec, max 0.71 sec, min 0.61 sec)
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 26.74% of total time (compiled   14 times, average 2.71 sec, max 2.86 sec, min 2.53 sec)
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display:                                                 FDepthOnlyPS - 11.52% of total time (compiled   14 times, average 1.17 sec, max 1.55 sec, min 0.89 sec)
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 10.17% of total time (compiled   18 times, average 0.80 sec, max 1.18 sec, min 0.38 sec)
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 6.55% of total time (compiled   17 times, average 0.55 sec, max 0.80 sec, min 0.34 sec)
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display:                                          TDepthOnlyVS<false> - 6.26% of total time (compiled   14 times, average 0.63 sec, max 0.87 sec, min 0.50 sec)
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: === Material stats ===
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: Materials Translated:    162
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: Material Total Translate Time: 0.09 s
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: Material Translation Only: 0.04 s (52%)
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: Material Cache Hits: 31 (19%)
+[2025.09.22-01.07.22:457][754]LogShaderCompilers: Display: ================================================
+[2025.09.22-01.08.18:257][ 96]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.09.22-01.08.35:812][ 69]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.09.22-01.08.37:508][271]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2025.09.22-01.08.54:697][ 95]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.22-01.08.54:719][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Game" FILE="D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.09.22-01.08.54:755][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.09.22-01.08.54:774][ 95]LogSavePackage: Moving output files for package: /Game/Maps/Map_Game
+[2025.09.22-01.08.54:774][ 95]LogSavePackage: Moving 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Saved/Map_Game98335BA04FFB23555B1B7E9B09D6F56C.tmp' to 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap'
+[2025.09.22-01.08.54:780][ 95]LogFileHelpers: Saving map 'Map_Game' took 0.061
+[2025.09.22-01.08.54:786][ 95]LogFileHelpers: InternalPromptForCheckoutAndSave took 89.300 ms (total: 896.017 ms)
+[2025.09.22-01.08.54:819][ 95]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.22-01.08.54:819][ 95]LogContentValidation: Enabled validators:
+[2025.09.22-01.08.54:819][ 95]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.22-01.08.54:819][ 95]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.22-01.08.54:819][ 95]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.22-01.08.54:819][ 95]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.22-01.08.54:819][ 95]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.22-01.08.54:819][ 95]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.22-01.08.54:819][ 95]AssetCheck: /Game/Maps/Map_Game Validating asset
+[2025.09.22-01.09.02:928][ 36]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1368.725586
+[2025.09.22-01.09.03:120][ 59]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.22-01.09.03:120][ 59]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1368.908203, Update Interval: 302.255920
+[2025.09.22-01.10.31:975][790]Cmd: DUPLICATE
+[2025.09.22-01.10.31:976][790]Cmd: ACTOR DUPLICATE
+[2025.09.22-01.10.40:659][749]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.22-01.10.40:694][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Game" FILE="D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.09.22-01.10.40:721][749]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.09.22-01.10.40:740][749]LogSavePackage: Moving output files for package: /Game/Maps/Map_Game
+[2025.09.22-01.10.40:740][749]LogSavePackage: Moving 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Saved/Map_Game2F66874542D13E67935122A2947FF7AE.tmp' to 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap'
+[2025.09.22-01.10.40:745][749]LogFileHelpers: Saving map 'Map_Game' took 0.051
+[2025.09.22-01.10.40:752][749]LogFileHelpers: InternalPromptForCheckoutAndSave took 92.670 ms (total: 988.688 ms)
+[2025.09.22-01.10.40:777][749]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.22-01.10.40:777][749]LogContentValidation: Enabled validators:
+[2025.09.22-01.10.40:777][749]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.22-01.10.40:778][749]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.22-01.10.40:778][749]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.22-01.10.40:778][749]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.22-01.10.40:778][749]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.22-01.10.40:778][749]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.22-01.10.40:778][749]AssetCheck: /Game/Maps/Map_Game Validating asset
+[2025.09.22-01.11.47:742][744]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.22-01.11.47:769][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Game" FILE="D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.09.22-01.11.47:795][744]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2025.09.22-01.11.47:834][744]LogSavePackage: Moving output files for package: /Game/Maps/Map_Game
+[2025.09.22-01.11.47:834][744]LogSavePackage: Moving 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Saved/Map_Game2688016145A86ACC2D872EB47B8C6A5B.tmp' to 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap'
+[2025.09.22-01.11.47:840][744]LogFileHelpers: Saving map 'Map_Game' took 0.071
+[2025.09.22-01.11.47:846][744]LogFileHelpers: InternalPromptForCheckoutAndSave took 103.783 ms (total: 1.09 sec)
+[2025.09.22-01.11.47:869][744]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.22-01.11.47:869][744]LogContentValidation: Enabled validators:
+[2025.09.22-01.11.47:869][744]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.22-01.11.47:869][744]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.22-01.11.47:869][744]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.22-01.11.47:869][744]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.22-01.11.47:869][744]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.22-01.11.47:869][744]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.22-01.11.47:869][744]AssetCheck: /Game/Maps/Map_Game Validating asset
+[2025.09.22-01.12.04:090][632]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.22-01.12.04:119][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Game" FILE="D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.09.22-01.12.04:144][632]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2025.09.22-01.12.04:159][632]LogSavePackage: Moving output files for package: /Game/Maps/Map_Game
+[2025.09.22-01.12.04:161][632]LogSavePackage: Moving 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Saved/Map_GameA3AEC0D6459E7C2EC508C1B9610B728A.tmp' to 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap'
+[2025.09.22-01.12.04:166][632]LogFileHelpers: Saving map 'Map_Game' took 0.047
+[2025.09.22-01.12.04:172][632]LogFileHelpers: InternalPromptForCheckoutAndSave took 81.653 ms (total: 1.17 sec)
+[2025.09.22-01.12.04:208][632]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.22-01.12.04:208][632]LogContentValidation: Enabled validators:
+[2025.09.22-01.12.04:208][632]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.22-01.12.04:208][632]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.22-01.12.04:208][632]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.22-01.12.04:208][632]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.22-01.12.04:208][632]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.22-01.12.04:208][632]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.22-01.12.04:209][632]AssetCheck: /Game/Maps/Map_Game Validating asset
+[2025.09.22-01.12.43:228][707]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.22-01.12.43:263][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Game" FILE="D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.09.22-01.12.43:289][707]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.09.22-01.12.43:303][707]LogSavePackage: Moving output files for package: /Game/Maps/Map_Game
+[2025.09.22-01.12.43:304][707]LogSavePackage: Moving 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Saved/Map_Game6F2A6D094F9757F2C7E9D193B199AAAC.tmp' to 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap'
+[2025.09.22-01.12.43:310][707]LogFileHelpers: Saving map 'Map_Game' took 0.048
+[2025.09.22-01.12.43:316][707]LogFileHelpers: InternalPromptForCheckoutAndSave took 88.711 ms (total: 1.26 sec)
+[2025.09.22-01.12.43:352][707]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.22-01.12.43:352][707]LogContentValidation: Enabled validators:
+[2025.09.22-01.12.43:352][707]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.22-01.12.43:352][707]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.22-01.12.43:352][707]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.22-01.12.43:352][707]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.22-01.12.43:352][707]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.22-01.12.43:352][707]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.22-01.12.43:352][707]AssetCheck: /Game/Maps/Map_Game Validating asset
+[2025.09.22-01.13.24:570][675]LogSlate: External Image Picker: DecompressImage failed
+[2025.09.22-01.13.32:561][290]LogSlate: Window 'Project Settings' being destroyed
+[2025.09.22-01.13.32:566][290]LogSlate: Window 'Project Settings' being destroyed
+[2025.09.22-01.14.19:444][236]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack01.SM_Rack01
+[2025.09.22-01.14.19:444][236]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack01.SM_Rack01
+[2025.09.22-01.14.19:444][236]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack01.SM_Rack01 as actor: StaticMeshActor /Game/Maps/Map_Game.Map_Game:PersistentLevel.StaticMeshActor_1
+[2025.09.22-01.14.20:733][386]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.09.22-01.14.20:771][386]LogEditorActor: Deleted 0 Actors (0.053 secs)
+[2025.09.22-01.14.20:776][386]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack01.SM_Rack01
+[2025.09.22-01.14.20:776][386]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack01.SM_Rack01
+[2025.09.22-01.14.20:777][386]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack01.SM_Rack01 as actor: StaticMeshActor /Game/Maps/Map_Game.Map_Game:PersistentLevel.StaticMeshActor_2
+[2025.09.22-01.14.35:266][997]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1701.068604
+[2025.09.22-01.14.36:267][  0]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.22-01.14.36:267][  0]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1701.735474, Update Interval: 319.554443
+[2025.09.22-01.15.25:243][293]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: ================================================
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: Total job queries 716, among them cache hits 70 (9.78%), DDC hits 403 (56.28%), Duplicates 87 (12.15%)
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: Tracking 559 distinct input hashes that result in 343 distinct outputs (61.36%)
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: RAM used: 4,15 MiB of 1,60 GiB budget. Usage: 0.25%
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: Shaders Compiled: 156
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: Jobs assigned 156, completed 156 (100%)
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: Average time worker was idle: 27.88 s
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: Time job spent in pending queue: average 8.24 s, longest 15.59 s
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: Job execution time: average 1.06 s, max 3.33 s
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: Job life time (pending + execution): average 9.30 s, max 16.04
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: Shader code size: total 1,166 MiB, numShaders 177, average 6,75 KiB, min 1,727 KiB, max 13,762 KiB
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 28.00 s
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: Jobs were issued in 156 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: Average processing rate: 5.57 jobs/sec
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: Total thread time: 142,354 s
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: Total thread preprocess time: 9,146 s
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: Percentage time preprocessing: 6.42%
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: Effective parallelization: 5.08 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.635584
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled   14 times, average 2.71 sec, max 2.86 sec, min 2.53 sec)
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled   14 times, average 1.17 sec, max 1.55 sec, min 0.89 sec)
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 1.07 sec, max 1.07 sec, min 1.07 sec)
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   19 times, average 0.78 sec, max 1.18 sec, min 0.38 sec)
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    7 times, average 0.65 sec, max 0.71 sec, min 0.61 sec)
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 26.61% of total time (compiled   14 times, average 2.71 sec, max 2.86 sec, min 2.53 sec)
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display:                                                 FDepthOnlyPS - 11.46% of total time (compiled   14 times, average 1.17 sec, max 1.55 sec, min 0.89 sec)
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 10.42% of total time (compiled   19 times, average 0.78 sec, max 1.18 sec, min 0.38 sec)
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 6.71% of total time (compiled   18 times, average 0.53 sec, max 0.80 sec, min 0.29 sec)
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display:                                          TDepthOnlyVS<false> - 6.23% of total time (compiled   14 times, average 0.63 sec, max 0.87 sec, min 0.50 sec)
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: === Material stats ===
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: Materials Translated:    162
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: Material Total Translate Time: 0.09 s
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: Material Translation Only: 0.04 s (52%)
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: Material Cache Hits: 31 (19%)
+[2025.09.22-01.16.22:480][927]LogShaderCompilers: Display: ================================================
+[2025.09.22-01.17.40:506][727]Cmd: MODE SCALEGRID=1
+[2025.09.22-01.17.49:257][761]Cmd: EDIT COPY
+[2025.09.22-01.17.49:449][784]Cmd: EDIT PASTE
+[2025.09.22-01.17.53:197][198]Cmd: EDIT COPY
+[2025.09.22-01.17.53:439][227]Cmd: EDIT PASTE
+[2025.09.22-01.17.59:985][936]Cmd: EDIT COPY
+[2025.09.22-01.18.00:168][958]Cmd: EDIT PASTE
+[2025.09.22-01.18.41:765][772]LogSlate: Window 'Batch Renamer' being destroyed
+[2025.09.22-01.19.00:208][879]Cmd: EDIT COPY
+[2025.09.22-01.19.00:385][900]Cmd: EDIT PASTE
+[2025.09.22-01.19.11:270][133]Cmd: DUPLICATE
+[2025.09.22-01.19.11:270][133]Cmd: ACTOR DUPLICATE
+[2025.09.22-01.19.11:383][134]LogRenderer: Warning: [VSM] Non-Nanite Marking Job Queue overflow. Performance may be affected. This occurs when many non-nanite meshes cover a large area of the shadow map.
+[2025.09.22-01.19.36:891][899]Cmd: MODE GRID=0
+[2025.09.22-01.19.42:865][564]Cmd: TRANSACTION UNDO
+[2025.09.22-01.19.42:865][564]LogEditorTransaction: Undo Move Elements
+[2025.09.22-01.19.43:172][570]Cmd: TRANSACTION UNDO
+[2025.09.22-01.19.43:172][570]LogEditorTransaction: Undo Move Elements
+[2025.09.22-01.20.05:069][106]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.22-01.20.05:106][106]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Game" FILE="D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.09.22-01.20.05:136][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.09.22-01.20.05:162][106]LogSavePackage: Moving output files for package: /Game/Maps/Map_Game
+[2025.09.22-01.20.05:162][106]LogSavePackage: Moving 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Saved/Map_GameA6779C29473F0462E57BAC9DE12B88D7.tmp' to 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap'
+[2025.09.22-01.20.05:168][106]LogFileHelpers: Saving map 'Map_Game' took 0.063
+[2025.09.22-01.20.05:175][106]LogFileHelpers: InternalPromptForCheckoutAndSave took 106.017 ms (total: 1.36 sec)
+[2025.09.22-01.20.05:195][106]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.22-01.20.05:195][106]LogContentValidation: Enabled validators:
+[2025.09.22-01.20.05:195][106]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.22-01.20.05:195][106]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.22-01.20.05:195][106]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.22-01.20.05:195][106]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.22-01.20.05:195][106]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.22-01.20.05:195][106]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.22-01.20.05:195][106]AssetCheck: /Game/Maps/Map_Game Validating asset
+[2025.09.22-01.20.20:240][775]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.22-01.20.20:246][775]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.22-01.20.20:285][775]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_Game
+[2025.09.22-01.20.20:291][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006055s)
+[2025.09.22-01.20.20:291][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_Game.Map_Game to /Game/Maps/UEDPIE_0_Map_Game.Map_Game (0.006097s)
+[2025.09.22-01.20.20:303][775]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.09.22-01.20.20:306][775]LogChaosDD: Creating Chaos Debug Draw Scene for world Map_Game
+[2025.09.22-01.20.20:307][775]LogPlayLevel: PIE: World Init took: (0.001365s)
+[2025.09.22-01.20.20:308][775]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.09.22-01.20.20:308][775]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.22-01.20.20:308][775]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.22-01.20.20:308][775]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.22-01.20.20:308][775]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.22-01.20.20:308][775]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.22-01.20.20:308][775]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.22-01.20.20:308][775]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.22-01.20.20:308][775]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.22-01.20.20:308][775]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.22-01.20.20:308][775]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.22-01.20.20:308][775]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.22-01.20.20:310][775]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.22-01.20.20:331][775]LogAudioMixer: Display: Using Audio Hardware Device Fones de ouvido (2- H510-PRO Wireless headset)
+[2025.09.22-01.20.20:331][775]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.22-01.20.20:331][775]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.22-01.20.20:331][775]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.22-01.20.20:332][775]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.09.22-01.20.20:332][775]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.09.22-01.20.20:333][775]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.09.22-01.20.20:333][775]LogInit: FAudioDevice initialized with ID 6.
+[2025.09.22-01.20.20:334][775]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.09.22-01.20.20:334][775]LogAudio: Display: Audio Device (ID: 6) registered with world 'Map_Game'.
+[2025.09.22-01.20.20:334][775]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.09.22-01.20.20:337][775]LogLoad: Game class is 'GameModeBase'
+[2025.09.22-01.20.20:338][775]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_Game.Map_Game up for play (max tick rate 0) at 2025.09.21-22.20.20
+[2025.09.22-01.20.20:338][775]LogWorld: Bringing up level for play took: 0.000879
+[2025.09.22-01.20.20:340][775]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2025.09.22-01.20.20:343][775]PIE: Server logged in
+[2025.09.22-01.20.20:344][775]PIE: Play in editor total start time 0,099 seconds.
+[2025.09.22-01.20.20:389][776]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.22-01.20.20:437][777]LogRenderer: Warning: [VSM] Non-Nanite Marking Job Queue overflow. Performance may be affected. This occurs when many non-nanite meshes cover a large area of the shadow map.
+[2025.09.22-01.20.30:825][ 18]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.22-01.20.30:825][ 18]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_Game
+[2025.09.22-01.20.30:825][ 18]LogWorld: UWorld::CleanupWorld for Map_Game, bSessionEnded=true, bCleanupResources=true
+[2025.09.22-01.20.30:826][ 18]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.22-01.20.30:827][ 18]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.22-01.20.30:830][ 18]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.22-01.20.30:843][ 18]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.22-01.20.30:843][ 18]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.09.22-01.20.30:843][ 18]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=4
+[2025.09.22-01.20.30:845][ 18]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=2
+[2025.09.22-01.20.30:850][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.09.22-01.20.30:916][ 19]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2025.09.22-01.20.42:443][198]Cmd: MODE GRID=1
+[2025.09.22-01.20.44:584][447]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2070.375488
+[2025.09.22-01.20.44:784][469]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.22-01.20.44:784][469]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2070.565430, Update Interval: 337.645813
+[2025.09.22-01.21.10:561][341]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.22-01.21.10:600][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Game" FILE="D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.09.22-01.21.10:626][341]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.09.22-01.21.10:650][341]LogSavePackage: Moving output files for package: /Game/Maps/Map_Game
+[2025.09.22-01.21.10:650][341]LogSavePackage: Moving 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Saved/Map_Game9836BFD645F7BEFA8B078B86506FDF5D.tmp' to 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap'
+[2025.09.22-01.21.10:657][341]LogFileHelpers: Saving map 'Map_Game' took 0.057
+[2025.09.22-01.21.10:662][341]LogFileHelpers: InternalPromptForCheckoutAndSave took 100.682 ms (total: 1.46 sec)
+[2025.09.22-01.21.10:700][341]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.22-01.21.10:700][341]LogContentValidation: Enabled validators:
+[2025.09.22-01.21.10:700][341]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.22-01.21.10:700][341]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.22-01.21.10:700][341]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.22-01.21.10:700][341]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.22-01.21.10:700][341]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.22-01.21.10:700][341]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.22-01.21.10:700][341]AssetCheck: /Game/Maps/Map_Game Validating asset
+[2025.09.22-01.21.26:406][145]Cmd: TRANSACTION UNDO
+[2025.09.22-01.21.26:406][145]LogEditorTransaction: Undo Move Elements
+[2025.09.22-01.21.28:907][392]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.09.22-01.21.32:045][728]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.09.22-01.21.34:440][  2]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.22-01.21.34:461][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Game" FILE="D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.09.22-01.21.34:487][  2]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.09.22-01.21.34:511][  2]LogSavePackage: Moving output files for package: /Game/Maps/Map_Game
+[2025.09.22-01.21.34:511][  2]LogSavePackage: Moving 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Saved/Map_Game7012F3EF4B62D6E6008802AE9D61931B.tmp' to 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap'
+[2025.09.22-01.21.34:517][  2]LogFileHelpers: Saving map 'Map_Game' took 0.056
+[2025.09.22-01.21.34:523][  2]LogFileHelpers: InternalPromptForCheckoutAndSave took 82.422 ms (total: 1.55 sec)
+[2025.09.22-01.21.34:551][  2]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.22-01.21.34:551][  2]LogContentValidation: Enabled validators:
+[2025.09.22-01.21.34:551][  2]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.22-01.21.34:551][  2]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.22-01.21.34:551][  2]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.22-01.21.34:551][  2]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.22-01.21.34:551][  2]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.22-01.21.34:551][  2]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.22-01.21.34:551][  2]AssetCheck: /Game/Maps/Map_Game Validating asset
+[2025.09.22-01.21.35:590][111]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.22-01.21.35:595][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.22-01.21.35:635][111]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_Game
+[2025.09.22-01.21.35:641][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005863s)
+[2025.09.22-01.21.35:641][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_Game.Map_Game to /Game/Maps/UEDPIE_0_Map_Game.Map_Game (0.005900s)
+[2025.09.22-01.21.35:652][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.09.22-01.21.35:653][111]LogChaosDD: Creating Chaos Debug Draw Scene for world Map_Game
+[2025.09.22-01.21.35:655][111]LogPlayLevel: PIE: World Init took: (0.001370s)
+[2025.09.22-01.21.35:656][111]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.09.22-01.21.35:656][111]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.22-01.21.35:656][111]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.22-01.21.35:656][111]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.22-01.21.35:656][111]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.22-01.21.35:656][111]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.22-01.21.35:656][111]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.22-01.21.35:656][111]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.22-01.21.35:656][111]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.22-01.21.35:656][111]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.22-01.21.35:656][111]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.22-01.21.35:656][111]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.22-01.21.35:658][111]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.22-01.21.35:678][111]LogAudioMixer: Display: Using Audio Hardware Device Fones de ouvido (2- H510-PRO Wireless headset)
+[2025.09.22-01.21.35:678][111]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.22-01.21.35:678][111]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.22-01.21.35:678][111]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.22-01.21.35:679][111]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.09.22-01.21.35:679][111]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.09.22-01.21.35:681][111]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.09.22-01.21.35:681][111]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.09.22-01.21.35:681][111]LogInit: FAudioDevice initialized with ID 7.
+[2025.09.22-01.21.35:681][111]LogAudio: Display: Audio Device (ID: 7) registered with world 'Map_Game'.
+[2025.09.22-01.21.35:681][111]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.09.22-01.21.35:683][111]LogLoad: Game class is 'GameModeBase'
+[2025.09.22-01.21.35:684][111]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_Game.Map_Game up for play (max tick rate 0) at 2025.09.21-22.21.35
+[2025.09.22-01.21.35:684][111]LogWorld: Bringing up level for play took: 0.000844
+[2025.09.22-01.21.35:686][111]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2025.09.22-01.21.35:687][111]PIE: Server logged in
+[2025.09.22-01.21.35:689][111]PIE: Play in editor total start time 0,094 seconds.
+[2025.09.22-01.21.35:735][112]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.22-01.21.35:780][113]LogRenderer: Warning: [VSM] Non-Nanite Marking Job Queue overflow. Performance may be affected. This occurs when many non-nanite meshes cover a large area of the shadow map.
+[2025.09.22-01.21.40:186][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.22-01.21.40:186][635]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_Game
+[2025.09.22-01.21.40:186][635]LogWorld: UWorld::CleanupWorld for Map_Game, bSessionEnded=true, bCleanupResources=true
+[2025.09.22-01.21.40:186][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.22-01.21.40:187][635]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.22-01.21.40:189][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.22-01.21.40:203][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.22-01.21.40:203][635]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.09.22-01.21.40:203][635]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=4
+[2025.09.22-01.21.40:205][635]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=2
+[2025.09.22-01.21.40:211][635]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.09.22-01.21.40:260][636]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2025.09.22-01.25.34:591][400]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.09.22-01.25.34:596][400]LogStreaming: Display: FlushAsyncLoading(486): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.22-01.25.34:620][400]LogChaosDD: Creating Chaos Debug Draw Scene for world Minimal_Default
+[2025.09.22-01.25.34:621][400]LogAssetEditorSubsystem: Opening Asset editor for World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2025.09.22-01.25.34:621][400]Cmd: MAP LOAD FILE="D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.09.22-01.25.34:638][400]LogWorld: UWorld::CleanupWorld for Map_Game, bSessionEnded=true, bCleanupResources=true
+[2025.09.22-01.25.34:638][400]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.22-01.25.34:652][400]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.22-01.25.34:654][400]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.09.22-01.25.34:656][400]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2025.09.22-01.25.34:656][400]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.22-01.25.34:671][400]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.09.22-01.25.34:683][400]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.09.22-01.25.34:733][400]LogAudio: Display: Audio Device (ID: 1) registered with world 'Minimal_Default'.
+[2025.09.22-01.25.34:734][400]LogChaosDD: Creating Chaos Debug Draw Scene for world Minimal_Default
+[2025.09.22-01.25.34:746][400]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.09.22-01.25.34:760][400]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.09.22-01.25.34:766][400]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.09.22-01.25.34:766][400]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,046ms to complete.
+[2025.09.22-01.25.34:816][401]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.22-01.25.36:406][570]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.09.22-01.25.37:139][644]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default
+[2025.09.22-01.25.37:139][644]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2025.09.22-01.25.37:199][644]LogStreaming: Display: FlushAsyncLoading(488): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.22-01.25.39:038][644]LogSlate: Took 0.006111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.09.22-01.25.42:988][ 91]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.09.22-01.25.42:988][ 91]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.22-01.25.43:041][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.09.22-01.25.47:730][584]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.09.22-01.25.47:731][584]LogStreaming: Display: FlushAsyncLoading(682): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.22-01.25.47:737][584]LogChaosDD: Creating Chaos Debug Draw Scene for world Map_Game
+[2025.09.22-01.25.47:739][584]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Map_Game.Map_Game
+[2025.09.22-01.25.47:739][584]Cmd: MAP LOAD FILE="D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.09.22-01.25.47:777][584]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2025.09.22-01.25.47:777][584]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.22-01.25.47:796][584]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.22-01.25.47:798][584]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.09.22-01.25.47:799][584]LogWorld: UWorld::CleanupWorld for Map_Game, bSessionEnded=true, bCleanupResources=true
+[2025.09.22-01.25.47:799][584]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.22-01.25.47:816][584]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.09.22-01.25.47:864][584]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.09.22-01.25.47:869][584]LogAudio: Display: Audio Device (ID: 1) registered with world 'Map_Game'.
+[2025.09.22-01.25.47:869][584]LogChaosDD: Creating Chaos Debug Draw Scene for world Map_Game
+[2025.09.22-01.25.47:882][584]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.09.22-01.25.47:903][584]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.09.22-01.25.47:908][584]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.09.22-01.25.47:908][584]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,04ms to complete.
+[2025.09.22-01.25.47:958][585]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.22-01.25.51:335][973]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Maps/Map_Game.Map_Game:PersistentLevel.Map_Game
+[2025.09.22-01.25.51:335][973]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2025.09.22-01.25.54:466][281]LogSlate: Window 'Map_Game' being destroyed
+[2025.09.22-01.25.57:704][659]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.22-01.25.57:735][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Game" FILE="D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.09.22-01.25.57:790][659]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.09.22-01.25.57:812][659]LogSavePackage: Moving output files for package: /Game/Maps/Map_Game
+[2025.09.22-01.25.57:813][659]LogSavePackage: Moving 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Saved/Map_Game1446E6EB419C744F23E7AF8313E0BA7F.tmp' to 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap'
+[2025.09.22-01.25.57:819][659]LogFileHelpers: Saving map 'Map_Game' took 0.084
+[2025.09.22-01.25.57:826][659]LogFileHelpers: InternalPromptForCheckoutAndSave took 122.096 ms (total: 1.67 sec)
+[2025.09.22-01.25.57:864][659]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.22-01.25.57:864][659]LogContentValidation: Enabled validators:
+[2025.09.22-01.25.57:864][659]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.22-01.25.57:864][659]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.22-01.25.57:864][659]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.22-01.25.57:864][659]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.22-01.25.57:864][659]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.22-01.25.57:864][659]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.22-01.25.57:864][659]AssetCheck: /Game/Maps/Map_Game Validating asset
+[2025.09.22-01.26.01:015][ 13]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.22-01.26.01:021][ 13]LogPlayLevel: [PlayLevel] Compiling Map_Game before play...
+[2025.09.22-01.26.01:047][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.09.22-01.26.01:049][ 13]LogPlayLevel: PlayLevel: Blueprint regeneration took 28 ms (1 blueprints)
+[2025.09.22-01.26.01:085][ 13]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_Game
+[2025.09.22-01.26.01:092][ 13]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006370s)
+[2025.09.22-01.26.01:092][ 13]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_Game.Map_Game to /Game/Maps/UEDPIE_0_Map_Game.Map_Game (0.006405s)
+[2025.09.22-01.26.01:112][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.09.22-01.26.01:113][ 13]LogChaosDD: Creating Chaos Debug Draw Scene for world Map_Game
+[2025.09.22-01.26.01:115][ 13]LogPlayLevel: PIE: World Init took: (0.001257s)
+[2025.09.22-01.26.01:115][ 13]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.09.22-01.26.01:115][ 13]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.22-01.26.01:115][ 13]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.22-01.26.01:115][ 13]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.22-01.26.01:115][ 13]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.22-01.26.01:115][ 13]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.22-01.26.01:115][ 13]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.22-01.26.01:115][ 13]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.22-01.26.01:115][ 13]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.22-01.26.01:115][ 13]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.22-01.26.01:115][ 13]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.22-01.26.01:115][ 13]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.22-01.26.01:117][ 13]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.22-01.26.01:136][ 13]LogAudioMixer: Display: Using Audio Hardware Device Fones de ouvido (2- H510-PRO Wireless headset)
+[2025.09.22-01.26.01:137][ 13]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.22-01.26.01:137][ 13]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.22-01.26.01:137][ 13]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.22-01.26.01:137][ 13]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.09.22-01.26.01:137][ 13]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2025.09.22-01.26.01:139][ 13]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.09.22-01.26.01:139][ 13]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2025.09.22-01.26.01:139][ 13]LogInit: FAudioDevice initialized with ID 8.
+[2025.09.22-01.26.01:139][ 13]LogAudio: Display: Audio Device (ID: 8) registered with world 'Map_Game'.
+[2025.09.22-01.26.01:139][ 13]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2025.09.22-01.26.01:142][ 13]LogLoad: Game class is 'GameModeBase'
+[2025.09.22-01.26.01:143][ 13]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_Game.Map_Game up for play (max tick rate 0) at 2025.09.21-22.26.01
+[2025.09.22-01.26.01:143][ 13]LogWorld: Bringing up level for play took: 0.000837
+[2025.09.22-01.26.01:145][ 13]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2025.09.22-01.26.01:146][ 13]LogBlueprintUserMessages: [Map_Game_C_0] Welcome to WarehouseWreckage!
+[2025.09.22-01.26.01:146][ 13]LogBlueprintUserMessages: [Map_Game_C_0] Showing SM_Cube Properties:
+[2025.09.22-01.26.01:146][ 13]PIE: Server logged in
+[2025.09.22-01.26.01:148][ 13]PIE: Play in editor total start time 0,127 seconds.
+[2025.09.22-01.26.01:192][ 14]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.22-01.26.01:236][ 15]LogRenderer: Warning: [VSM] Non-Nanite Marking Job Queue overflow. Performance may be affected. This occurs when many non-nanite meshes cover a large area of the shadow map.
+[2025.09.22-01.26.20:215][283]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.22-01.26.20:215][283]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_Game
+[2025.09.22-01.26.20:215][283]LogWorld: UWorld::CleanupWorld for Map_Game, bSessionEnded=true, bCleanupResources=true
+[2025.09.22-01.26.20:216][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.22-01.26.20:217][283]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.22-01.26.20:221][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.22-01.26.20:242][283]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.22-01.26.20:242][283]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2025.09.22-01.26.20:242][283]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=4
+[2025.09.22-01.26.20:244][283]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=2
+[2025.09.22-01.26.20:246][283]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.22-01.26.20:249][283]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2025.09.22-01.26.20:276][284]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2025.09.22-01.26.28:248][744]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.22-01.26.28:254][744]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.22-01.26.28:285][744]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_Game
+[2025.09.22-01.26.28:292][744]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006534s)
+[2025.09.22-01.26.28:292][744]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_Game.Map_Game to /Game/Maps/UEDPIE_0_Map_Game.Map_Game (0.006569s)
+[2025.09.22-01.26.28:311][744]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.09.22-01.26.28:314][744]LogChaosDD: Creating Chaos Debug Draw Scene for world Map_Game
+[2025.09.22-01.26.28:315][744]LogPlayLevel: PIE: World Init took: (0.001263s)
+[2025.09.22-01.26.28:315][744]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.09.22-01.26.28:315][744]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.22-01.26.28:315][744]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.22-01.26.28:315][744]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.22-01.26.28:315][744]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.22-01.26.28:315][744]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.22-01.26.28:315][744]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.22-01.26.28:315][744]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.22-01.26.28:315][744]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.22-01.26.28:315][744]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.22-01.26.28:315][744]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.22-01.26.28:315][744]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.22-01.26.28:317][744]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.22-01.26.28:336][744]LogAudioMixer: Display: Using Audio Hardware Device Fones de ouvido (2- H510-PRO Wireless headset)
+[2025.09.22-01.26.28:336][744]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.22-01.26.28:336][744]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.22-01.26.28:336][744]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.22-01.26.28:336][744]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.09.22-01.26.28:336][744]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.09.22-01.26.28:338][744]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.09.22-01.26.28:338][744]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.09.22-01.26.28:338][744]LogInit: FAudioDevice initialized with ID 9.
+[2025.09.22-01.26.28:338][744]LogAudio: Display: Audio Device (ID: 9) registered with world 'Map_Game'.
+[2025.09.22-01.26.28:338][744]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.09.22-01.26.28:341][744]LogLoad: Game class is 'GameModeBase'
+[2025.09.22-01.26.28:342][744]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_Game.Map_Game up for play (max tick rate 0) at 2025.09.21-22.26.28
+[2025.09.22-01.26.28:342][744]LogWorld: Bringing up level for play took: 0.000833
+[2025.09.22-01.26.28:343][744]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2025.09.22-01.26.28:345][744]LogBlueprintUserMessages: [Map_Game_C_0] Welcome to WarehouseWreckage!
+[2025.09.22-01.26.28:345][744]LogBlueprintUserMessages: [Map_Game_C_0] Showing SM_Cube Properties:
+[2025.09.22-01.26.28:346][744]PIE: Server logged in
+[2025.09.22-01.26.28:347][744]PIE: Play in editor total start time 0,093 seconds.
+[2025.09.22-01.26.28:392][745]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.22-01.26.28:437][746]LogRenderer: Warning: [VSM] Non-Nanite Marking Job Queue overflow. Performance may be affected. This occurs when many non-nanite meshes cover a large area of the shadow map.
+[2025.09.22-01.26.47:625][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.22-01.26.47:625][976]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_Game
+[2025.09.22-01.26.47:626][976]LogWorld: UWorld::CleanupWorld for Map_Game, bSessionEnded=true, bCleanupResources=true
+[2025.09.22-01.26.47:626][976]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.22-01.26.47:626][976]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.22-01.26.47:631][976]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.22-01.26.47:650][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.22-01.26.47:651][976]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2025.09.22-01.26.47:651][976]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=4
+[2025.09.22-01.26.47:653][976]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=2
+[2025.09.22-01.26.47:657][976]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.09.22-01.26.47:705][980]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2025.09.22-01.26.48:213][ 40]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.22-01.26.48:217][ 40]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.22-01.26.48:217][ 40]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_Game
+[2025.09.22-01.26.48:223][ 40]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006236s)
+[2025.09.22-01.26.48:223][ 40]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_Game.Map_Game to /Game/Maps/UEDPIE_0_Map_Game.Map_Game (0.006268s)
+[2025.09.22-01.26.48:243][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.09.22-01.26.48:243][ 40]LogChaosDD: Creating Chaos Debug Draw Scene for world Map_Game
+[2025.09.22-01.26.48:245][ 40]LogPlayLevel: PIE: World Init took: (0.001322s)
+[2025.09.22-01.26.48:245][ 40]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2025.09.22-01.26.48:245][ 40]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.22-01.26.48:245][ 40]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.22-01.26.48:245][ 40]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.22-01.26.48:245][ 40]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.22-01.26.48:245][ 40]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.22-01.26.48:245][ 40]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.22-01.26.48:245][ 40]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.22-01.26.48:245][ 40]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.22-01.26.48:245][ 40]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.22-01.26.48:245][ 40]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.22-01.26.48:245][ 40]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.22-01.26.48:247][ 40]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.22-01.26.48:267][ 40]LogAudioMixer: Display: Using Audio Hardware Device Fones de ouvido (2- H510-PRO Wireless headset)
+[2025.09.22-01.26.48:267][ 40]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.22-01.26.48:267][ 40]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.22-01.26.48:267][ 40]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.22-01.26.48:268][ 40]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2025.09.22-01.26.48:268][ 40]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2025.09.22-01.26.48:269][ 40]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2025.09.22-01.26.48:269][ 40]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2025.09.22-01.26.48:269][ 40]LogInit: FAudioDevice initialized with ID 10.
+[2025.09.22-01.26.48:269][ 40]LogAudio: Display: Audio Device (ID: 10) registered with world 'Map_Game'.
+[2025.09.22-01.26.48:269][ 40]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2025.09.22-01.26.48:272][ 40]LogLoad: Game class is 'GameModeBase'
+[2025.09.22-01.26.48:273][ 40]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_Game.Map_Game up for play (max tick rate 0) at 2025.09.21-22.26.48
+[2025.09.22-01.26.48:273][ 40]LogWorld: Bringing up level for play took: 0.000843
+[2025.09.22-01.26.48:275][ 40]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2025.09.22-01.26.48:275][ 40]LogBlueprintUserMessages: [Map_Game_C_0] Welcome to WarehouseWreckage!
+[2025.09.22-01.26.48:275][ 40]LogBlueprintUserMessages: [Map_Game_C_0] Showing SM_Cube Properties:
+[2025.09.22-01.26.48:276][ 40]PIE: Server logged in
+[2025.09.22-01.26.48:278][ 40]PIE: Play in editor total start time 0,061 seconds.
+[2025.09.22-01.26.48:329][ 41]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.22-01.26.48:374][ 42]LogRenderer: Warning: [VSM] Non-Nanite Marking Job Queue overflow. Performance may be affected. This occurs when many non-nanite meshes cover a large area of the shadow map.
+[2025.09.22-01.26.52:155][486]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.22-01.26.52:155][486]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_Game
+[2025.09.22-01.26.52:155][486]LogWorld: UWorld::CleanupWorld for Map_Game, bSessionEnded=true, bCleanupResources=true
+[2025.09.22-01.26.52:155][486]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.22-01.26.52:157][486]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.22-01.26.52:161][486]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.22-01.26.52:180][486]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.22-01.26.52:180][486]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2025.09.22-01.26.52:180][486]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=4
+[2025.09.22-01.26.52:183][486]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=2
+[2025.09.22-01.26.52:188][486]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.09.22-01.26.52:211][487]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2025.09.22-01.26.55:008][821]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.22-01.26.55:049][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Game" FILE="D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.09.22-01.26.55:084][821]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.09.22-01.26.55:107][821]LogSavePackage: Moving output files for package: /Game/Maps/Map_Game
+[2025.09.22-01.26.55:107][821]LogSavePackage: Moving 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Saved/Map_GameE33D3BA74AA9B0D6AEFAFF84849A6023.tmp' to 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap'
+[2025.09.22-01.26.55:113][821]LogFileHelpers: Saving map 'Map_Game' took 0.066
+[2025.09.22-01.26.55:121][821]LogFileHelpers: InternalPromptForCheckoutAndSave took 111.573 ms (total: 1.78 sec)
+[2025.09.22-01.26.55:158][821]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.22-01.26.55:158][821]LogContentValidation: Enabled validators:
+[2025.09.22-01.26.55:158][821]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.22-01.26.55:158][821]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.22-01.26.55:158][821]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.22-01.26.55:158][821]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.22-01.26.55:158][821]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.22-01.26.55:158][821]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.22-01.26.55:158][821]AssetCheck: /Game/Maps/Map_Game Validating asset
+[2025.09.22-01.27.01:606][265]LogSlate: Window 'Color Picker' being destroyed
+[2025.09.22-01.27.01:621][265]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2447.390869
+[2025.09.22-01.27.01:811][281]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.22-01.27.01:811][281]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2447.576904, Update Interval: 351.278412
+[2025.09.22-01.27.04:459][562]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.22-01.27.04:488][562]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Game" FILE="D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.09.22-01.27.04:521][562]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.09.22-01.27.04:543][562]LogSavePackage: Moving output files for package: /Game/Maps/Map_Game
+[2025.09.22-01.27.04:543][562]LogSavePackage: Moving 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Saved/Map_Game03032FDE494FB8CF2EE48EB7B1D74315.tmp' to 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap'
+[2025.09.22-01.27.04:550][562]LogFileHelpers: Saving map 'Map_Game' took 0.061
+[2025.09.22-01.27.04:557][562]LogFileHelpers: InternalPromptForCheckoutAndSave took 97.225 ms (total: 1.88 sec)
+[2025.09.22-01.27.04:588][562]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.22-01.27.04:588][562]LogContentValidation: Enabled validators:
+[2025.09.22-01.27.04:588][562]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.22-01.27.04:588][562]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.22-01.27.04:588][562]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.22-01.27.04:588][562]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.22-01.27.04:588][562]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.22-01.27.04:588][562]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.22-01.27.04:588][562]AssetCheck: /Game/Maps/Map_Game Validating asset
+[2025.09.22-01.27.05:570][675]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.22-01.27.05:574][675]LogPlayLevel: [PlayLevel] Compiling Map_Game before play...
+[2025.09.22-01.27.05:617][675]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.09.22-01.27.05:619][675]LogPlayLevel: PlayLevel: Blueprint regeneration took 44 ms (1 blueprints)
+[2025.09.22-01.27.05:619][675]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_Game
+[2025.09.22-01.27.05:626][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006374s)
+[2025.09.22-01.27.05:626][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_Game.Map_Game to /Game/Maps/UEDPIE_0_Map_Game.Map_Game (0.006404s)
+[2025.09.22-01.27.05:645][675]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.09.22-01.27.05:645][675]LogChaosDD: Creating Chaos Debug Draw Scene for world Map_Game
+[2025.09.22-01.27.05:647][675]LogPlayLevel: PIE: World Init took: (0.001274s)
+[2025.09.22-01.27.05:647][675]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2025.09.22-01.27.05:647][675]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.22-01.27.05:647][675]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.22-01.27.05:647][675]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.22-01.27.05:647][675]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.22-01.27.05:647][675]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.22-01.27.05:647][675]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.22-01.27.05:647][675]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.22-01.27.05:647][675]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.22-01.27.05:647][675]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.22-01.27.05:648][675]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.22-01.27.05:648][675]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.22-01.27.05:649][675]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.22-01.27.05:669][675]LogAudioMixer: Display: Using Audio Hardware Device Fones de ouvido (2- H510-PRO Wireless headset)
+[2025.09.22-01.27.05:669][675]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.22-01.27.05:669][675]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.22-01.27.05:669][675]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.22-01.27.05:669][675]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2025.09.22-01.27.05:669][675]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2025.09.22-01.27.05:671][675]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2025.09.22-01.27.05:672][675]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2025.09.22-01.27.05:672][675]LogInit: FAudioDevice initialized with ID 11.
+[2025.09.22-01.27.05:672][675]LogAudio: Display: Audio Device (ID: 11) registered with world 'Map_Game'.
+[2025.09.22-01.27.05:672][675]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2025.09.22-01.27.05:675][675]LogLoad: Game class is 'GameModeBase'
+[2025.09.22-01.27.05:676][675]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_Game.Map_Game up for play (max tick rate 0) at 2025.09.21-22.27.05
+[2025.09.22-01.27.05:676][675]LogWorld: Bringing up level for play took: 0.000861
+[2025.09.22-01.27.05:678][675]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2025.09.22-01.27.05:678][675]LogBlueprintUserMessages: [Map_Game_C_1] Welcome to WarehouseWreckage!
+[2025.09.22-01.27.05:679][675]PIE: Server logged in
+[2025.09.22-01.27.05:681][675]PIE: Play in editor total start time 0,106 seconds.
+[2025.09.22-01.27.05:732][676]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.22-01.27.05:776][677]LogRenderer: Warning: [VSM] Non-Nanite Marking Job Queue overflow. Performance may be affected. This occurs when many non-nanite meshes cover a large area of the shadow map.
+[2025.09.22-01.27.08:635][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.22-01.27.08:635][ 15]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_Game
+[2025.09.22-01.27.08:635][ 15]LogWorld: UWorld::CleanupWorld for Map_Game, bSessionEnded=true, bCleanupResources=true
+[2025.09.22-01.27.08:636][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.22-01.27.08:637][ 15]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.22-01.27.08:641][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.22-01.27.08:662][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.22-01.27.08:662][ 15]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2025.09.22-01.27.08:662][ 15]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=4
+[2025.09.22-01.27.08:664][ 15]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=2
+[2025.09.22-01.27.08:668][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.09.22-01.27.08:751][ 16]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2025.09.22-01.31.32:729][379]LogStreaming: Display: FlushAsyncLoading(684): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.22-01.31.38:889][986]LogStreaming: Display: FlushAsyncLoading(685): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.22-01.31.44:357][468]LogStreaming: Display: FlushAsyncLoading(686): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.22-01.31.55:760][571]LogStreaming: Display: FlushAsyncLoading(687): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.22-01.32.14:143][471]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.22-01.32.14:180][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Game" FILE="D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.09.22-01.32.14:226][471]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.09.22-01.32.14:251][471]LogSavePackage: Moving output files for package: /Game/Maps/Map_Game
+[2025.09.22-01.32.14:251][471]LogSavePackage: Moving 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Saved/Map_Game0C9D795B4E0E56F8193FBAA547DD3AF7.tmp' to 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap'
+[2025.09.22-01.32.14:259][471]LogFileHelpers: Saving map 'Map_Game' took 0.079
+[2025.09.22-01.32.14:265][471]LogFileHelpers: InternalPromptForCheckoutAndSave took 121.367 ms (total: 2.00 sec)
+[2025.09.22-01.32.14:305][471]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.22-01.32.14:305][471]LogContentValidation: Enabled validators:
+[2025.09.22-01.32.14:305][471]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.22-01.32.14:305][471]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.22-01.32.14:305][471]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.22-01.32.14:305][471]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.22-01.32.14:305][471]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.22-01.32.14:305][471]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.22-01.32.14:305][471]AssetCheck: /Game/Maps/Map_Game Validating asset
+[2025.09.22-01.33.07:593][331]LogSlate: Window 'Color Picker' being destroyed
+[2025.09.22-01.33.09:769][572]LogRenderer: Warning: [VSM] Non-Nanite Marking Job Queue overflow. Performance may be affected. This occurs when many non-nanite meshes cover a large area of the shadow map.
+[2025.09.22-01.33.28:057][476]Cmd: MODE ROTGRID=0
+[2025.09.22-01.33.52:625][185]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2858.399902
+[2025.09.22-01.33.52:816][207]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.22-01.33.52:816][207]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2858.580322, Update Interval: 327.267059
+[2025.09.22-01.34.08:876][112]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.22-01.34.08:913][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Game" FILE="D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.09.22-01.34.08:965][112]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.09.22-01.34.08:988][112]LogSavePackage: Moving output files for package: /Game/Maps/Map_Game
+[2025.09.22-01.34.08:988][112]LogSavePackage: Moving 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Saved/Map_Game1EA645504504FC3C4F9FBF89041F6248.tmp' to 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap'
+[2025.09.22-01.34.08:995][112]LogFileHelpers: Saving map 'Map_Game' took 0.082
+[2025.09.22-01.34.09:001][112]LogFileHelpers: InternalPromptForCheckoutAndSave took 124.945 ms (total: 2.12 sec)
+[2025.09.22-01.34.09:022][112]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.22-01.34.09:022][112]LogContentValidation: Enabled validators:
+[2025.09.22-01.34.09:022][112]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.22-01.34.09:022][112]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.22-01.34.09:022][112]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.22-01.34.09:022][112]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.22-01.34.09:022][112]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.22-01.34.09:022][112]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.22-01.34.09:022][112]AssetCheck: /Game/Maps/Map_Game Validating asset
+[2025.09.22-01.35.46:252][637]Cmd: TRANSACTION UNDO
+[2025.09.22-01.35.46:252][637]LogEditorTransaction: Undo Edit Temperature
+[2025.09.22-01.36.17:850][739]LogSlate: Window 'Batch Renamer' being destroyed
+[2025.09.22-01.36.30:071][ 76]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.22-01.36.30:076][ 76]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.22-01.36.30:115][ 76]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_Game
+[2025.09.22-01.36.30:122][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006540s)
+[2025.09.22-01.36.30:122][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_Game.Map_Game to /Game/Maps/UEDPIE_0_Map_Game.Map_Game (0.006585s)
+[2025.09.22-01.36.30:148][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.09.22-01.36.30:150][ 76]LogChaosDD: Creating Chaos Debug Draw Scene for world Map_Game
+[2025.09.22-01.36.30:151][ 76]LogPlayLevel: PIE: World Init took: (0.001554s)
+[2025.09.22-01.36.30:151][ 76]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2025.09.22-01.36.30:151][ 76]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.22-01.36.30:151][ 76]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.22-01.36.30:151][ 76]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.22-01.36.30:151][ 76]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.22-01.36.30:151][ 76]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.22-01.36.30:151][ 76]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.22-01.36.30:151][ 76]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.22-01.36.30:151][ 76]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.22-01.36.30:151][ 76]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.22-01.36.30:151][ 76]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.22-01.36.30:151][ 76]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.22-01.36.30:154][ 76]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.22-01.36.30:173][ 76]LogAudioMixer: Display: Using Audio Hardware Device Fones de ouvido (2- H510-PRO Wireless headset)
+[2025.09.22-01.36.30:173][ 76]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.22-01.36.30:173][ 76]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.22-01.36.30:173][ 76]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.22-01.36.30:174][ 76]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2025.09.22-01.36.30:174][ 76]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2025.09.22-01.36.30:175][ 76]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2025.09.22-01.36.30:175][ 76]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2025.09.22-01.36.30:175][ 76]LogInit: FAudioDevice initialized with ID 12.
+[2025.09.22-01.36.30:175][ 76]LogAudio: Display: Audio Device (ID: 12) registered with world 'Map_Game'.
+[2025.09.22-01.36.30:175][ 76]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2025.09.22-01.36.30:179][ 76]LogLoad: Game class is 'GameModeBase'
+[2025.09.22-01.36.30:179][ 76]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_Game.Map_Game up for play (max tick rate 0) at 2025.09.21-22.36.30
+[2025.09.22-01.36.30:180][ 76]LogWorld: Bringing up level for play took: 0.000922
+[2025.09.22-01.36.30:181][ 76]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2025.09.22-01.36.30:182][ 76]LogBlueprintUserMessages: [Map_Game_C_1] Welcome to WarehouseWreckage!
+[2025.09.22-01.36.30:183][ 76]PIE: Server logged in
+[2025.09.22-01.36.30:185][ 76]PIE: Play in editor total start time 0,109 seconds.
+[2025.09.22-01.36.30:231][ 77]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.22-01.36.30:281][ 78]LogRenderer: Warning: [VSM] Non-Nanite Marking Job Queue overflow. Performance may be affected. This occurs when many non-nanite meshes cover a large area of the shadow map.
+[2025.09.22-01.36.49:716][384]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.22-01.36.49:716][384]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_Game
+[2025.09.22-01.36.49:716][384]LogWorld: UWorld::CleanupWorld for Map_Game, bSessionEnded=true, bCleanupResources=true
+[2025.09.22-01.36.49:717][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.22-01.36.49:718][384]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.22-01.36.49:722][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.22-01.36.49:741][384]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.22-01.36.49:741][384]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2025.09.22-01.36.49:741][384]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=4
+[2025.09.22-01.36.49:742][384]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=2
+[2025.09.22-01.36.49:748][384]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.09.22-01.36.49:833][385]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2025.09.22-01.40.07:062][638]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3232.844971
+[2025.09.22-01.40.08:062][641]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.22-01.40.08:062][641]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3233.512695, Update Interval: 356.240723
+[2025.09.22-01.40.42:496][603]LogSlate: Window 'Open Asset' being destroyed
+[2025.09.22-01.40.42:505][603]LogSlate: Window 'Open Asset' being destroyed
+[2025.09.22-01.42.00:316][290]Cmd: TRANSACTION UNDO
+[2025.09.22-01.42.00:316][290]LogEditorTransaction: Undo Place Objects
+[2025.09.22-01.42.00:317][290]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Maps/Map_Game.Map_Game:PersistentLevel.ModelComponent_412' invalid (528 verts, 0 indices).
+[2025.09.22-01.43.33:272][588]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.22-01.43.33:307][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Game" FILE="D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.09.22-01.43.33:342][588]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.09.22-01.43.33:438][588]LogSavePackage: Moving output files for package: /Game/Maps/Map_Game
+[2025.09.22-01.43.33:439][588]LogSavePackage: Moving 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Saved/Map_GameAFA2C2CA41256EDF250F65B757240C9A.tmp' to 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap'
+[2025.09.22-01.43.33:446][588]LogFileHelpers: Saving map 'Map_Game' took 0.139
+[2025.09.22-01.43.33:451][588]LogFileHelpers: InternalPromptForCheckoutAndSave took 179.745 ms (total: 2.30 sec)
+[2025.09.22-01.43.33:492][588]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.22-01.43.33:492][588]LogContentValidation: Enabled validators:
+[2025.09.22-01.43.33:492][588]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.22-01.43.33:492][588]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.22-01.43.33:492][588]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.22-01.43.33:492][588]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.22-01.43.33:492][588]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.22-01.43.33:492][588]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.22-01.43.33:493][588]AssetCheck: /Game/Maps/Map_Game Validating asset
+[2025.09.22-01.45.21:604][231]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.22-01.45.21:639][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_Game" FILE="D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.09.22-01.45.21:679][231]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.09.22-01.45.21:702][231]LogSavePackage: Moving output files for package: /Game/Maps/Map_Game
+[2025.09.22-01.45.21:703][231]LogSavePackage: Moving 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Saved/Map_GameC21D7169471B23B04CE5F0BAD34ECD81.tmp' to 'D:/Unreal Projects/WarehouseWreckage/WarehouseWreckage/Content/Maps/Map_Game.umap'
+[2025.09.22-01.45.21:708][231]LogFileHelpers: Saving map 'Map_Game' took 0.070
+[2025.09.22-01.45.21:716][231]LogFileHelpers: InternalPromptForCheckoutAndSave took 110.828 ms (total: 2.41 sec)
+[2025.09.22-01.45.21:748][231]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.22-01.45.21:748][231]LogContentValidation: Enabled validators:
+[2025.09.22-01.45.21:748][231]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.22-01.45.21:748][231]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.22-01.45.21:748][231]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.22-01.45.21:748][231]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.22-01.45.21:748][231]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.22-01.45.21:748][231]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.22-01.45.21:748][231]AssetCheck: /Game/Maps/Map_Game Validating asset
